@@ -1,0 +1,20 @@
+{
+    "name": "zeropingheroes/timespan",
+    "description": "",
+    "authors": [
+        {
+            "name": "Olly Baker",
+            "email": "ilumos@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zeropingheroes\\Timespan": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
