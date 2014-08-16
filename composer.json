@@ -1,6 +1,7 @@
 {
     "name": "zeropingheroes/timespan",
-    "description": "",
+    "description": "Helper class for formatting and describing timespans",
+    "license": "AGPL-3.0",
     "authors": [
         {
             "name": "Olly Baker",
