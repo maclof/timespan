@@ -123,9 +123,8 @@ class Timespan {
 		if( empty($words) )
 		{
 			$words['starting'] = 'Starting';
-			$words['started'] = 'Started';
-			$words['ending'] = 'ending';
-			$words['ended'] = 'ended';
+			$words['ending'] = 'Ending';
+			$words['ended'] = 'Ended';
  		}
 
 		if ( $this->tense == 'future' )
@@ -135,7 +134,7 @@ class Timespan {
 
 		if ( $this->tense == 'present' )
 		{
-			return $words['started'] . ' ' . $this->start->getRelativeDate() . ', '. $words['ending'] . ' ' . $this->end->getRelativeDate();
+			return $words['ending'] . ' ' . $this->end->getRelativeDate();
 		}
 
 		if ( $this->tense == 'past' )
